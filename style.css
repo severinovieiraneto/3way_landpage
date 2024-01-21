@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,250&display=swap');
 
 body {
     margin: 0;
@@ -8,7 +9,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.one-session {
+.one-session,
+.footer {
     background-color: #000000;
     color: #ffffff;
 }
@@ -53,4 +55,91 @@ a {
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.some-players {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-some-players {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.players {
+    display: flex;
+    gap: 60px;
+}
+
+.one-player,
+.two-player,
+.three-player,
+.four-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.three-session {
+    display: flex;
+    flex-direction: column;
+    background-color: #afbccb;
+}
+
+.quote-three-session {
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author-three-session {
+    font-weight: bold;
+}
+
+.four-session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #4169e1;
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px 10% 20px 10%;
+    margin: 5%;
+    color: #ffffff;
+}
+
+.left-side-container
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-side-container button {
+    background: #4169e1;
+    color: #ffffff;
+    border: 1px solid #4169e1;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #ffffff;
 }
