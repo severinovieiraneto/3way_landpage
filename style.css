@@ -48,9 +48,9 @@ a {
 }
 
 .signup-button {
-    background: #4169e1;
+    background: #042c5c;
     color: #ffffff;
-    border: 1px solid #4169e1;
+    border: 1px solid #042c5c;
     padding: 8px 16px;
     border-radius: 8px;
     font-weight: bold;
@@ -110,7 +110,7 @@ a {
     align-items: center;
     justify-content: space-between;
 
-    background: #4169e1;
+    background: #042c5c;
     width: 60%;
     border-radius: 10px;
     padding: 20px 10% 20px 10%;
@@ -125,9 +125,9 @@ a {
 }
 
 .right-side-container button {
-    background: #4169e1;
+    background: #042c5c;
     color: #ffffff;
-    border: 1px solid #4169e1;
+    border: 1px solid #042c5c;
     padding: 8px 16px;
     border-radius: 8px;
     font-weight: bold;
