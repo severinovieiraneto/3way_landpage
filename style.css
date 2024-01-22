@@ -90,12 +90,17 @@ a {
 }
 
 .quote-three-session {
+    display: flex;    
+    justify-content: center;
     font-family: Raleway, sans-serif;
     font-size: 36px;
     font-style: italic;
 }
 
 .author-three-session {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
     font-weight: bold;
 }
 
@@ -129,6 +134,7 @@ a {
     color: #ffffff;
     border: 1px solid #042c5c;
     padding: 8px 16px;
+    margin-left: 50%;
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
